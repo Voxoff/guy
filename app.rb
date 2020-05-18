@@ -2,7 +2,7 @@ require 'sinatra'
 require "sinatra/reloader" if development?
 
 get '/' do
-  send_file "index.html"
+  send_file "cv.html"
 end
 
 get '/cv' do
